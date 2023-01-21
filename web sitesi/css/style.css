@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: white;
+    color: black;
+}
+
+/* yazı tipleri */
+h1 {
+    color: green;
+    font-family: "Brush Script MT";
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: greenyellow;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Brush Script MT";
+    font-size: 30px;
+}
+
+h5 {
+    text-align: center;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h6 {
+    text-align: center;
+    color: #737472;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.back {
+    border: 1px solid rgb(160, 158, 158);
+}
+
+b {
+    color: #737472;
+}
+
+.formbaslik {
+    color: #333;
+    font-family: "Brush Script MT";
+    text-align: center;
+    font-size: 50px;
+}
+
+.left {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    color: greenyellow;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #737472;
+}
+
+.logo {
+    width: 100px;
+    margin: 0;
+}
+
+.green {
+    width: 1400px;
+    height: 450px;
+}
+
+/* nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    font-style: bold;
+    background-color: white;
+    justify-content: right;
+}
+
+nav ul li a {
+    display: block;
+    color: #5d5e5c;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+.sol {
+    float: left;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    font-style: bold;
+    background-color: white;
+    justify-content: center;
+}
+
+/* header */
+header {
+    position: relative;
+}
+
+.baslik {
+    font-size: 75px;
+    color: #333;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.centered span {
+    color: green;
+}
+
+/* main */
+.vegan {
+    position: absolute;
+    top: 370%;
+    left: 25%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.veganimg {
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.veganbaslik {
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+}
+
+.veganbaslik2 {
+    text-align: center;
+}
+
+.son {
+    position: absolute;
+    top: 650%;
+    left: 20%;
+}
+
+.sonimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.sonyazi {
+    color: black;
+    size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* footer */
+.formlar {
+    text-align: center;
+}
+
+.footer {
+    background-color: #ccd1c7;
+    width: 1349px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.footer-baslik {
+    text-align: center;
+    font-family: "Brush Script MT";
+    color: #333;
+    font-size: 30px;
+}
+
+.footer-yazi {
+    color: #737472;
+    text-align: center;
+}
+ul li a:hover {
+    color: green;
+}
+
+.formlar input {
+    width: 415px;
+    padding: 10px 20px 11px 20px;
+    color: #79787F;
+    font-family: "PT Sans", Sans-serif;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #E3E3E3;
+}
+
+/* button */
+button {
+    padding: 18px 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.reverseBtn {
+    background-color: green;
+    color: white;
+}
+
+.reverseBtn:hover {
+    background-color: #333;
+}
+
+/* tablo */
+.image-table {
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-collapse: separate;
+    border-spacing: 6px;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.image-table img {
+    border: 10px solid #fff;
+    box-sizing: border-box;
+}
+
+.image-tablee {
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-collapse: separate;
+    border-spacing: 6px;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
